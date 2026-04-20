@@ -1,4 +1,7 @@
-num1 = float(input())
-num2 = float(input())
+s1 = float(input())
+v1 = float(input())
+v2 = float(input())
 
-print(num1 * num2 * 0.5)
+t = (s1 / (v1 + v2))
+
+print(t)
