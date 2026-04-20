@@ -1,5 +1,5 @@
 num1 = float(input())
 
-first_num_after_comma = (num1 % 1) * 10
+diminutive_num = num1 % 1
 
-print(int(first_num_after_comma))
+print(diminutive_num)
