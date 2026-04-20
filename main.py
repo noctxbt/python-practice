@@ -1,5 +1,4 @@
-num1 = float(input())
+d1, d2, d3, d4, d5 = int(input()), int(input()), int(input()), int(input()), int(input())
 
-diminutive_num = num1 % 1
-
-print(diminutive_num)
+print('Наименьшее число =', min(d1, d2, d3, d4, d5))
+print('Наибольшее число =', max(d1, d2, d3, d4, d5))
