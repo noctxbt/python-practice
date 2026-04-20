@@ -1,5 +1,12 @@
-d1, d2, d3, d4, d5 = float(input()), float(input()), float(input()), float(input()), float(input())
+num = int(input())
+a = int((num / 100))
+c = int((num % 100) / 10)
+b = int(num % 10)
 
-res = abs(d1) + abs(d2) + abs(d3) + abs(d4) + abs(d5)
 
-print(res)
+if max(a, b, c) - min(a, b, c) ==  (a + b + c) - (max(a, b, c) + min(a, b, c)):
+    print('Число интересное')
+else:
+    print('Число неинтересное')
+
+print(a, b, c)
