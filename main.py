@@ -1,8 +1,6 @@
-num = float(input())
+dog_year = int(input())
 
-
-if num == 0:
-    print('Обратного числа не существует')
+if 1 <= dog_year <= 2:
+    print(dog_year * 10.5)
 else:
-    print(num ** -1)
-
+    print(21 + (dog_year - 2) * 4)
