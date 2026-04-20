@@ -1,7 +1,8 @@
-a, b, c = int(input()), int(input()), int(input())
+p1 = int(input())
+p2 = int(input())
+q1 = int(input())
+q2 = int(input())
 
-max = max(a, b, c)
-min = min(a, b, c)
-middle = (a + b + c) - min - max
+res = abs(p1 - q1) + abs(p2 - q2)
 
-print(max, middle, min, sep='\n')
+print(res)
