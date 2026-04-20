@@ -1,7 +1,8 @@
-s1 = float(input())
-v1 = float(input())
-v2 = float(input())
+num = float(input())
 
-t = (s1 / (v1 + v2))
 
-print(t)
+if num == 0:
+    print('Обратного числа не существует')
+else:
+    print(num ** -1)
+
