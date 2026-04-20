@@ -1,6 +1,5 @@
-dog_year = int(input())
+num1 = float(input())
 
-if 1 <= dog_year <= 2:
-    print(dog_year * 10.5)
-else:
-    print(21 + (dog_year - 2) * 4)
+first_num_after_comma = (num1 % 1) * 10
+
+print(int(first_num_after_comma))
