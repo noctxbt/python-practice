@@ -9,4 +9,3 @@ tanx = tan(x) * tan(x)
 res = sinx + cosx + tanx
 
 print(res)
-
