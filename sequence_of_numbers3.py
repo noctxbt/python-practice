@@ -1,11 +1,12 @@
 m, n = int(input()), int(input())
 
-if m % 2 == 1:
+if m >= n:
+    step = - 1
+    stop = n - 1 
     start = m
-else:
-    start = m - 1
-
-end = n - 1
-
-for i in range(start, end, -2):
+if m <= n:
+    step = 1
+    stop = n + 1
+    start = m
+for i in range(start, stop, step):
     print(i)
