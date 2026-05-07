@@ -3,7 +3,7 @@ s = input()
 counter1 = 0
 counter2 = 0
 
-for i in range(0, len(s)):
+for i in range(0, len(s) - 1):
     if s[i] in 'ауоыиэяюёеАУОЫИЭЯЮЁЕ':
         counter1 += 1
     if s[i] in 'бвгджзйклмнпрстфхцчшщБВГДЖЗЙКЛМНПРСТФХЦЧШЩ':
